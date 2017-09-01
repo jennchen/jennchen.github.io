@@ -1,0 +1,93 @@
+#container {
+	background: black; // url('http://d13pix9kaak6wt.cloudfront.net/background/jennchen_1325184873_84.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	font-family: 'Karla', sans-serif;
+}
+#container:after {
+	content: "";
+	background: rgba(100,100,100,0.5);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	z-index: 2;
+}
+#content{
+	position: relative;
+	z-index: 3;
+}
+
+#intro-block {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.profile-image {
+	margin-top: 20px;
+	height: 240px;
+	width: 240px;
+	background: url('https://lh6.googleusercontent.com/-1WdmEEKs25E/Tg5O2_cKrXI/AAAAAAAANmE/uV_cPLEsi4A/w264-h263-no/jennein.png') center;
+	border-radius: 132px;
+	float: left;
+}
+
+.intro {
+	font-family: 'Unica One', sans-serif;
+	margin-top: 100px;
+	font-size: 48px;
+	font-weight: bold;
+	color: #ffffff;
+	//overflow: hidden;
+	//text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
+}
+
+.intro-description {
+	font-family: 'Karla', sans-serif;
+	margin-top: 32px;
+	color: #ffffff;
+	font-size: 24px;
+	//font-weight: 50;
+	line-height: 32px;
+	//text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
+}
+
+.card {
+	margin: 20px 0px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+.title {
+	font-family: 'Open Sans', 'Sans-serif';
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.description {
+	margin: 0px 0px 18px 0px;
+	line-height: 24px;
+	font-weight: 200;
+}
+
+.date {
+	font-family: 'Unica One', 'Sans-serif';
+	font-size: 18px;
+	line-height: 48px;
+	margin-bottom: 16px;
+	//font-weight: 200;
+	color: #777777;
+}
+
+.screenshot {
+	//border: 1px solid #efefef;
+	margin: 0px 0px 20px 0px;
+}
+
+.video {
+	width: 640px;
+	height: 385px;
+	margin: 20px auto 0px auto;
+}
