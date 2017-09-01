@@ -1,5 +1,9 @@
+body {
+	background: black;
+}
+
 #container {
-	background: black; // url('http://d13pix9kaak6wt.cloudfront.net/background/jennchen_1325184873_84.jpg') no-repeat;
+//background: url('http://d13pix9kaak6wt.cloudfront.net/background/jennchen_1325184873_84.jpg') no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -20,8 +24,8 @@
 }
 
 #intro-block {
-	padding-top: 20px;
-	margin-bottom: 20px;
+	padding-top: 10vh;
+	min-height: 70vh;
 }
 
 .profile-image {
@@ -44,12 +48,13 @@
 }
 
 .intro-description {
-	font-family: 'Karla', sans-serif;
+	font-family: 'Muli', sans-serif;
 	margin-top: 18px;
 	color: #ffffff;
 	font-size: 24px;
-	//font-weight: 50;
+	font-weight: 200;
 	line-height: 32px;
+	opacity: 0.8;
 	//text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
 }
 
