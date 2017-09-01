@@ -45,7 +45,7 @@
 
 .intro-description {
 	font-family: 'Karla', sans-serif;
-	margin-top: 32px;
+	margin-top: 18px;
 	color: #ffffff;
 	font-size: 24px;
 	//font-weight: 50;
@@ -61,7 +61,7 @@
 }
 
 .title {
-	font-family: 'Open Sans', 'Sans-serif';
+	font-family: 'Karla', 'Sans-serif';
 	font-size: 32px;
 	font-weight: bold;
 }
